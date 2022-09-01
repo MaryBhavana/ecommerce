@@ -36,6 +36,12 @@ const Home = () => {
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -65,6 +71,14 @@ const Home = () => {
           <div class="carousel-item">
             <img
               src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/6ebc9136-b6ba-4f3c-a169-c4ae01c752c9/29bbc30e-3516-4a4a-9e07-26e872f83e31/1280x720/match/image.jpg"
+              class="d-block w-100"
+              alt="IPhone"
+              height="500px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://chocolateclass.files.wordpress.com/2016/03/dairy-milk-chocolate-beautiful-hd-wallpaper.jpg"
               class="d-block w-100"
               alt="IPhone"
               height="500px"
